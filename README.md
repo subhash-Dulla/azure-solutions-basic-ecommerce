@@ -5,7 +5,7 @@ The template deploys a set of resources that collectively provide a sample archi
 
 # Create a basic e-commerce site infrastructure using a template
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/BritBoy70/azure-solutions-basic-ecommerce/master/SaaSecommerce/Templates/azuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FBritBoy70%2Fazure-solutions-basic-ecommerce%2Fmaster%2FSaaSecommerce%2FTemplates%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 <a href="http://armviz.io/#/?load=https://raw.githubusercontent.com/BritBoy70/azure-solutions-basic-ecommerce/master/SaaSecommerce/Templates/azuredeploy.json" target="_blank">
