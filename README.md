@@ -3,7 +3,7 @@ This Azure Resource Template project was created using the tooling in Visual Stu
 
 The template deploys a set of resources that collectively provide a sample architecture for an ecommerce web site.
 
-# Create a Logic App using a template
+# Create a basic e-commerce site infrastructure using a template
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/BritBoy70/azure-solutions-basic-ecommerce/master/SaaSecommerce/Templates/azuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
