@@ -1,4 +1,4 @@
-# Basic E-Commerce
+# Basic E-Commerce Solution
 A basic e-commerce solution is a highly scalable data-driven web application that integrates a shopping experience with 3rd-party payment systems. The Web application is secured using Azure Active Directory B2C. Azure SQL Database provides product catalog, session state and transaction processing and a third-party payment service should be used to securely handle credit card transactions passed to it from the Service Bus queue and WebJob. This Azure Resource Template project deploys a set of resources based on the below solution architecture that collectively provide the framework for the creation of a basic e-commerce web site.
 
 ![Basic Ecommerce Solution Architecture](SaaSecommerce/Docs/media/BasicEcommerceSolutionArchitecture.png)
