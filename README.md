@@ -1,7 +1,5 @@
-# SaaS eCommerce
-This Azure Resource Template project was created using the tooling in Visual Studio that is provided through installing the Azure SDK.
-
-The template deploys a set of resources that collectively provide a sample architecture for an ecommerce web site.
+# Basic E-Commerce
+A basic e-commerce solution is a highly scalable data-driven web application that integrates a shopping experience with 3rd-party payment systems. The Web application is secured using Azure Active Directory B2C. Azure SQL Database provides product catalog, session state and transaction processing and a third-party payment service should be used to securely handle credit card transactions passed to it from the Service Bus queue and WebJob. This Azure Resource Template project deploys a set of resources based on the below solution architecture that collectively provide the framework for the creation of a basic e-commerce web site.
 
 ![Basic Ecommerce Solution Architecture](SaaSecommerce/Docs/media/BasicEcommerceSolutionArchitecture.png)
 
@@ -20,14 +18,15 @@ For information about using this template, see below.
 The template deploys the following resources to Azure:
 
 1. Azure App Services Hosting Plan
-2. Azure App Services Web Site (to host ecommerce site)
-3. Azure App Services Web Site (to host webjob)
+2. Azure App Services Web Site (to host the ecommerce site)
+3. Azure App Services Web Site (to host the webjob that will process your orders)
 4. Redis Cache instance
 5. Azure SQL with two databases: ProductCatalog and Orders
 6. Azure storage (to hold blob and table stores)
 7. Azure Search
 8. CDN service configured with host header of web site as source url
-9. Application Insights instance and alerts for Azure web sites
+9. Service Bus Namespace to allow you to create Queues for your transactions
+10. Application Insights instance and alerts for Azure web sites
 
 > All resources inherit their deployment location to that of the containing resource group, with the exception of the Application Insights service, which at time of creation is restricted to CentralUS.
 
