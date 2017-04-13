@@ -12,6 +12,9 @@ A basic e-commerce solution is a highly scalable data-driven web application tha
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
+## Setup Azure Active Directory B2C for your e-commerce site
+Once you have deployed the template succesfully you can set up Azure Active Directory B2C so that it is available to secure your applicaiotn by follwing the instructions [Here](SaaSecommerce/Docs/ADB2CSetup.md)
+
 For information about using this template, see below.
 
 ## Resources
