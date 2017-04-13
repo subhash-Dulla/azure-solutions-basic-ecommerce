@@ -3,7 +3,7 @@ This Azure Resource Template project was created using the tooling in Visual Stu
 
 The template deploys a set of resources that collectively provide a sample architecture for an ecommerce web site.
 
-![Basic Ecommerce Solution Architecture](SaaSecommerce/docs/media/BasicEcommerceSolutionArchitecture.png)
+![Basic Ecommerce Solution Architecture](SaaSecommerce/Docs/media/BasicEcommerceSolutionArchitecture.png)
 
 # Create a basic e-commerce site infrastructure using a template
 
