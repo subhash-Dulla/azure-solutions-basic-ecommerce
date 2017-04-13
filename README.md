@@ -1,7 +1,7 @@
 # Basic E-Commerce Solution
 A basic e-commerce solution is a highly scalable data-driven web application that integrates a shopping experience with 3rd-party payment systems. The Web application is secured using Azure Active Directory B2C. Azure SQL Database provides product catalog, session state and transaction processing and a third-party payment service should be used to securely handle credit card transactions passed to it from the Service Bus queue and WebJob. 
 
-![Basic Ecommerce Solution Architecture](SaaSecommerce/Docs/media/BasicEcommerceSolutionArchitecture.png)
+![Basic E-commerce Solution Architecture](SaaSecommerce/Docs/media/BasicEcommerceSolutionArchitecture.png)
 
 # Create a basic e-commerce site infrastructure using a template
 This Azure Resource Template project deploys a set of resources based on the below solution architecture that collectively provide the framework for the creation of a basic e-commerce web site. You can deploy the template directly by clicking the Deploy to Azure button below or you clone the repo and open it in the tool of your choice. It also contains a Visual Studio project that allows you to deploy the template from Visual Studio. Once you have deployed the template make sure to follow the instructions below to setup Azure Active Directory B2C to allow you to secure your application. 
@@ -23,7 +23,7 @@ For more information about using this template, see below.
 The template deploys the following resources to Azure:
 
 1. Azure App Services Hosting Plan
-2. Azure App Services Web Site (to host the ecommerce site)
+2. Azure App Services Web Site (to host the e-commerce site)
 3. Azure App Services Web Site (to host the webjob that will process your orders)
 4. Redis Cache instance
 5. Azure SQL with two databases: ProductCatalog and Orders
