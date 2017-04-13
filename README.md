@@ -17,7 +17,7 @@ This Azure Resource Template project deploys a set of resources based on the bel
 Once you have deployed the template succesfully you can set up Azure Active Directory B2C so that it is available to secure your application by following the instructions [here](SaaSecommerce/Docs/ADB2CSetup.md)
 
 # Additional Information
-For information about using this template, see below.
+For more information about using this template, see below.
 
 ## Resources
 The template deploys the following resources to Azure:
