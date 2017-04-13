@@ -1,9 +1,10 @@
 # Basic E-Commerce Solution
-A basic e-commerce solution is a highly scalable data-driven web application that integrates a shopping experience with 3rd-party payment systems. The Web application is secured using Azure Active Directory B2C. Azure SQL Database provides product catalog, session state and transaction processing and a third-party payment service should be used to securely handle credit card transactions passed to it from the Service Bus queue and WebJob. This Azure Resource Template project deploys a set of resources based on the below solution architecture that collectively provide the framework for the creation of a basic e-commerce web site.
+A basic e-commerce solution is a highly scalable data-driven web application that integrates a shopping experience with 3rd-party payment systems. The Web application is secured using Azure Active Directory B2C. Azure SQL Database provides product catalog, session state and transaction processing and a third-party payment service should be used to securely handle credit card transactions passed to it from the Service Bus queue and WebJob. 
 
 ![Basic Ecommerce Solution Architecture](SaaSecommerce/Docs/media/BasicEcommerceSolutionArchitecture.png)
 
 # Create a basic e-commerce site infrastructure using a template
+This Azure Resource Template project deploys a set of resources based on the below solution architecture that collectively provide the framework for the creation of a basic e-commerce web site. You can deploy the template directly by clicking the Deploy to Azure button below or you clone the repo and open it in the tool of your choice. It also contains a Visual Studio project that allows you to deploy the template from Visual Studio. Once you have deployed the template make sure to follow the instructions below to setup Azure Active Directory B2C to allow you to secure your application. 
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FBritBoy70%2Fazure-solutions-basic-ecommerce%2Fmaster%2FSaaSecommerce%2FTemplates%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
